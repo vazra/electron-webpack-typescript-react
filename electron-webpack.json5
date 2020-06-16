@@ -1,0 +1,21 @@
+{
+  //   commonSourceDirectory: "src/common",
+  //   staticSourceDirectory: "src/static",
+  //   title: true,
+  //   whiteListedModules: ["foo-ui-library"],
+
+  main: {
+    // extraEntries: ["@/preload.js"],
+    // sourceDirectory: "src/main",
+    // webpackConfig: "custom.webpack.additions.js",
+  },
+
+  renderer: {
+    webpackConfig: "config/webpack.renderer.additions.js",
+    // dll: ["fooModule"],
+    // sourceDirectory: "src/renderer",
+    // template: "src/renderer/index.html",
+    // webpackConfig: "custom.webpack.additions.js",
+    // webpackDllConfig: "custom.webpackDll.additions.js",
+  },
+}
