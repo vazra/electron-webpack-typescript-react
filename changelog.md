@@ -1,3 +1,8 @@
+- added react
+
+  - added react, react-dom,
+  - @babel/preset-react,@types/react, @types/react-dom
+
 - migrated typescript
 
   - fixed @types/node versionm to ^12 to fix type warnings Ref. [issue](https://github.com/electron/electron/issues/21612)
