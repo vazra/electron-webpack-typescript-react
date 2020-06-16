@@ -1,7 +1,7 @@
 - added react
 
-  - added react, react-dom,
-  - @babel/preset-react,@types/react, @types/react-dom
+  - added react files from CRA
+  - added hot reloading
 
 - migrated typescript
 

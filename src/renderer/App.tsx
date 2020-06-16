@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { hot } from "react-hot-loader/root";
 
 function App() {
+  const [count, setCount] = useState<number>(0);
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        count : {count}
+        <button
+          onClick={() => {
+            setCount((c) => c + 1);
+          }}
+        >
+          +
+        </button>
+        <button
+          onClick={() => {
+            setCount((c) => c - 1);
+          }}
+        >
+          -
+        </button>
         <p>
-          Edit <code>src/renderer/App.tsx</code> and save to reload.
+          pEdit <code>src/renderer/App.tsx</code> and save to reload asd .
         </p>
         <p>
           <a
@@ -43,4 +60,4 @@ function App() {
   );
 }
 
-export default App;
+export default hot(App);
