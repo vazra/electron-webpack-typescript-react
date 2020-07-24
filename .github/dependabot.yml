@@ -10,7 +10,7 @@ updates:
       - dependency-name: "@types/node"
         # For @types/node, ignore all updates for version non LTS version
         versions: ["13.x", "14.x"]
-    default_reviewers:
+    reviewers:
       - "vazra"
     labels:
       - "deps"
