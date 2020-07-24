@@ -11,7 +11,7 @@ updates:
         # For @types/node, ignore all updates for version non LTS version
         versions: ["13.x"]
     reviewers:
-      - 'vazra'
+      - "vazra"
     labels:
-      - 'dependencies'
+      - "dependencies"
     open-pull-requests-limit: 5
