@@ -19,7 +19,7 @@
     "@babel/preset-react": "^7.16.7",
     "@types/electron-devtools-installer": "^2.2.1",
     "@types/node": "^17.0.23",
-    "@types/react": "^18.0.0",
+    "@types/react": "^18.0.1",
     "@types/react-dom": "^18.0.0",
     "electron": "9.0.4",
     "electron-builder": "^22.14.13",
